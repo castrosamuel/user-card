@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding:0;
+}
+#container {
+    width:600px;
+    margin:50px auto auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border:2px solid darkgray;
+}
+
+#containerHeader {
+    background-color:rgb(85, 157, 167);
+    height:90px;
+    position:relative;
+    margin:-2px;
+}
+
+#containerBody {
+    margin-top:20px;
+    position:relative;
+    padding:20px;
+}
+
+#containerHeader img {
+    width:12%;
+    position:absolute;
+    bottom:-30px;
+    left:20px;
+    
+}
+#markerIcon {
+    width:10px;
+    margin-right:5px;
+}
+#loc img, #loc h3 {
+    display:inline-block;
+}
+
+#editProf {
+    display:inline-block;
+}
+
+#gearIcon {
+    width:15px;
+}
+
+
+a {
+    color:darkslateblue
+}
